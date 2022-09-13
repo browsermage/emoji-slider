@@ -1,4 +1,7 @@
-Hi there, I'm Björn Hjorth 👋 
+Hi there, and welcome to my demo project! 
+
+I'm Björn Hjorth 👋 if you like what you see please do not be a stranger and say "Hi" on Twitter [@colorsofcode](https://twitter.com/colorsofcode)
+
 
 
 <a href="https://colorsofcode.com/demo/emoji-slider">View Demo</a>
@@ -17,8 +20,6 @@ This emoji slider demonstrates how to use Javascript to update an image with a H
 * PHP
 * Composer
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- STARTING -->
 ## Getting started 
 
@@ -34,7 +35,7 @@ This emoji slider demonstrates how to use Javascript to update an image with a H
    ```sh
    composer run dev
    ```
-
+https://github.com/microsoft/fluentui-emoji
 
 <!-- CONTACT -->
 ## Contact
@@ -47,3 +48,8 @@ Homepage: [https://colorsofcode.com](https://colorsofcode.com)
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+
+<!-- ACKKNOWLEDGE -->
+## Acknowledgments
+
+* [Microsoft fluent emoji](https://github.com/microsoft/fluentui-emoji)
