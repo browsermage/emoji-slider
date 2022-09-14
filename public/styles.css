@@ -1,0 +1,74 @@
+body, html {
+    background: linear-gradient(133deg, rgba(244,244,246,1) 0%, rgba(182,191,206,1) 100%);
+    margin: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+#emoji-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#emoji-slider .emoji-face {
+    width: 200px;
+    height: 200px;
+    padding: 60px 0;
+}
+
+.emoji-range {
+    -webkit-appearance: none; 
+    width: min(600px, 100%);
+    border-radius: 22px;
+    background: linear-gradient(90deg, rgba(16, 68, 255, 0.9) 0%, rgba(255, 249, 132, 0.9) 65%, rgba(255, 41, 41, 0.9) 100%);
+    box-shadow: 
+    inset 4px 0 6px 2px rgba(0,0,0,0.22),
+    0 0 0 2px hsl(224, 21%, 75%),
+    0 0 0 8px hsl(222, 15%, 82%),
+    0 0 12px 10px #dfe2ea;
+}
+  
+.emoji-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+  
+.emoji-range:focus {
+    outline: none;
+}
+
+/* Styling the range "Thumb" */
+.emoji-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 30px;
+    width: 68px;
+    border-radius: 16px;
+    background: #ababab;
+    cursor: pointer;
+    margin-top: 1px;
+    box-shadow: 
+    4px 0 6px 2px rgba(0,0,0,0.22),
+    inset 0px 22px 25px 0 white,
+    inset 5px 0 5px rgba(255, 249, 132, 0.8),
+    inset -5px 0 15px rgba(255, 41, 41, 0.9);
+    transition: scale 0.1s ease-out;  
+}
+
+.emoji-range::-webkit-slider-thumb:active {
+    scale: 0.9;
+}
+
+
+
+
+
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 0.8em;
+}

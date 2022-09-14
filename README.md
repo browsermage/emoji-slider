@@ -1,6 +1,6 @@
-Hi there, and welcome to my demo project! 
+Hi there, I'm Björn Hjorth 👋
 
-I'm Björn Hjorth 👋 if you like what you see please do not be a stranger and say "Hi" on Twitter [@colorsofcode](https://twitter.com/colorsofcode)
+If you like what you see please do not be a stranger and say "Hi" on Twitter [@colorsofcode](https://twitter.com/colorsofcode)
 
 
 
@@ -35,8 +35,7 @@ This emoji slider demonstrates how to use Javascript to update an image with a H
    ```sh
    composer run dev
    ```
-https://github.com/microsoft/fluentui-emoji
-
+   
 <!-- CONTACT -->
 ## Contact
 
