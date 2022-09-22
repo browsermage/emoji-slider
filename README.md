@@ -14,7 +14,7 @@ I like combining the web and game development, if you like what you see please d
 <!-- ABOUT -->
 ## About The Project
 
-This emoji slider demonstrates how to use Javascript to update an image with a HTML range slider.
+This emoji slider demonstrates how to use Javascript to update an image with a HTML range slider. And also how to re-trigger a CSS animation that has already been animated.
 
 <!-- PREREQUISITES -->
 ## Prerequisites

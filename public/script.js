@@ -29,7 +29,7 @@ slider.addEventListener("input", (event) => {
      * re-paint and add the class back again
      */
     slider_decale.classList.remove("bounce")
-     // forcing a re-paint can be done by many things, I just happend to go with focus
+     // forcing a re-paint can be done in many ways, I just happend to go with focus
     slider_decale.focus()
     slider_decale.classList.add("bounce")
 })

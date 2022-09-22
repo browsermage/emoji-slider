@@ -2,6 +2,9 @@
     "scripts": {
       "dev": "http-server ./public/"
     },
+    "stackblitz": {
+      "startCommand": "npm run dev"
+    },
     "devDependencies": {
       "http-server": "^14.1.1"
     }
