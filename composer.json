@@ -1,9 +1,0 @@
-{
-  "title": "Emoji slider Demo",
-  "scripts": {
-      "dev": "php -S 0.0.0.0:8080 -t public"
-  },
-  "config": {
-    "process-timeout": 0
-  }
-}

@@ -1,74 +1,98 @@
+:root {
+    --blue: rgba(16, 68, 255, 0.9);
+    --yellow: rgba(255, 249, 132, 0.9);
+    --red: rgba(255, 41, 41, 0.9);
+    --light-grey: hsl(222, 15%, 92%);
+    --darker-grey: hsl(222, 15%, 72%);
+    --shadow: rgba(0,0,0,0.22);
+}
+
 body, html {
-    background: linear-gradient(133deg, rgba(244,244,246,1) 0%, rgba(182,191,206,1) 100%);
+    background: linear-gradient(133deg, var(--light-grey) 0%, var(--darker-grey) 100%);
     margin: 0;
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
-   
 }
-#emoji-slider {
+.custom-range-slider-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 20px;
 }
 
-#emoji-slider .emoji-face {
-    width: 200px;
-    height: 200px;
+.custom-range-slider-decale {
+    width: 260px;
+    height: 260px;
     padding: 60px 0;
 }
 
-.emoji-range {
+.custom-range-slider {
     -webkit-appearance: none; 
     width: min(600px, 100%);
     border-radius: 22px;
-    background: linear-gradient(90deg, rgba(16, 68, 255, 0.9) 0%, rgba(255, 249, 132, 0.9) 65%, rgba(255, 41, 41, 0.9) 100%);
+    background: linear-gradient(90deg, var(--blue) 0%, var(--yellow) 50%, var(--red) 100%);
     box-shadow: 
-    inset 4px 0 6px 2px rgba(0,0,0,0.22),
-    0 0 0 2px hsl(224, 21%, 75%),
-    0 0 0 8px hsl(222, 15%, 82%),
-    0 0 12px 10px #dfe2ea;
+    inset 4px 0 6px 2px var(--shadow),
+    0 0 0 2px var(--darker-grey),
+    0 0 0 6px var(--light-grey),
+    0 0 12px 14px #dfe2ea;
 }
   
-.emoji-range::-webkit-slider-thumb {
+.custom-range-slider::-webkit-slider-thumb {
     -webkit-appearance: none;
 }
   
-.emoji-range:focus {
+.custom-range-slider:focus {
     outline: none;
 }
 
 /* Styling the range "Thumb" */
-.emoji-range::-webkit-slider-thumb {
+.custom-range-slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     height: 30px;
     width: 68px;
     border-radius: 16px;
-    background: #ababab;
+    background: white;
     cursor: pointer;
     margin-top: 1px;
     box-shadow: 
-    4px 0 6px 2px rgba(0,0,0,0.22),
-    inset 0px 22px 25px 0 white,
-    inset 5px 0 5px rgba(255, 249, 132, 0.8),
-    inset -5px 0 15px rgba(255, 41, 41, 0.9);
+        4px 0 6px 2px var(--shadow),
+        inset 0px 22px 25px 0 white,
+        inset 5px 0 5px var(--yellow),
+        inset -5px 0 15px var(--red);
     transition: scale 0.1s ease-out;  
 }
 
-.emoji-range::-webkit-slider-thumb:active {
+.custom-range-slider::-webkit-slider-thumb:active {
     scale: 0.9;
+    box-shadow: 
+        2px 0 4px 2px var(--shadow),
+        inset 0px 22px 25px 0 white,
+        inset 5px 0 5px var(--yellow),
+        inset -5px 0 15px var(--red);
 }
 
-
-
-
-
-
-#footer {
-    position: absolute;
+.footer {
+    position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
     display: flex;
     justify-content: center;
     font-size: 0.8em;
+    padding: 6px 20px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.bounce {
+    animation: bounce 0.7s forwards;
+}
+
+@keyframes bounce {
+    from, to { transform: scale(1, 1); }
+    25% { transform: scale(0.9, 1.1); }
+    50% { transform: scale(1.1, 0.9); }
+    75% { transform: scale(0.95, 1.05); }
 }
