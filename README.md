@@ -3,9 +3,9 @@ Hi there, I'm Björn Hjorth 👋
 I like combining the web and game development, if you like what you see please do not be a stranger and say "Hi" on Twitter [@colorsofcode](https://twitter.com/colorsofcode)
 
 
-<a href="https://stackblitz.com/edit/javascript-game-development-css-animation">Edit Demo on StackBlitz⚡️</a>
+<a href="https://stackblitz.com/edit/emoji-slider-demo?file=index.html">Edit Demo on StackBlitz⚡️</a>
 ·
-<a href="https://github.com/colorsofcode/javascript-game-development-css-amimation/issues">Report Bug</a>
+<a href="https://github.com/colorsofcode/emoji-slider/issues">Report Bug</a>
 
 <div align="center">
    <img src="./art/range-demo.gif" width="640" height="360">
