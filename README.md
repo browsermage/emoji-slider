@@ -1,11 +1,11 @@
 Hi there, I'm Björn Hjorth 👋
 
-I like combining the web and game development, if you like what you see please do not be a stranger and say "Hi" on Twitter [@colorsofcode](https://twitter.com/colorsofcode)
+I like combining the web and game development, if you like what you see please do not be a stranger and say "Hi" on Twitter [@browsermage](https://twitter.com/browsermage)
 
 
 <a href="https://stackblitz.com/edit/emoji-slider-demo?file=index.html">Edit Demo on StackBlitz⚡️</a>
 ·
-<a href="https://github.com/colorsofcode/emoji-slider/issues">Report Bug</a>
+<a href="https://github.com/browsermage/emoji-slider/issues">Report Bug</a>
 
 <div align="center">
    <img src="./art/range-demo.gif" width="640" height="360">
@@ -27,7 +27,7 @@ This emoji slider demonstrates how to use Javascript to update an image with a H
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/colorsofcode/emoji-slider.git
+   git clone https://github.com/browsermage/emoji-slider.git
    ```
 2. Move to the new directory
     ```sh
@@ -44,9 +44,9 @@ This emoji slider demonstrates how to use Javascript to update an image with a H
 <!-- CONTACT -->
 ## Contact
 
-Björn Hjorth - [@colorsofcode](https://twitter.com/colorsofcode)
+Björn Hjorth - [@browsermage](https://twitter.com/browsermage)
 
-Homepage: [https://colorsofcode.com](https://colorsofcode.com)
+Homepage: [https://browsermage.com](https://browsermage.com)
 
 <!-- LICENSE -->
 ## License
